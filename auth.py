@@ -5,7 +5,7 @@ parser = argparse.ArgumentParser()
 
 parser.add_argument("-t", "--idtoken", dest = "token", help="Enter Identity Token")
 parser.add_argument("-p", "--identitypoolid", dest = "IdentityPoolId" , help="Enter Identity Pool ID")
-parser.add_argument("-a", "--userpoolarn",dest ="arn_user_pool", help="Enter the User Pool ARN e.g cognito-idp:us-east-1:123412341234:userpool/us-east-1_123412341")
+parser.add_argument("-a", "--userpoolarn",dest ="arn_user_pool", help="Enter the User Pool ARN e.g cognito-idp.us-east-1.amazonaws.com/us-east-1_testuserskldnl")
 parser.add_argument("-r", "--region",dest ="region", help="Enter the region")
 args = parser.parse_args()
 
