@@ -32,15 +32,15 @@ python3 unauth.py -p {identity-pool-id} -r {aws-region}
 
 - For authenticated aws credentials
 
-    [![EtJQyv.md.png](https://iili.io/EtJQyv.md.png)](https://freeimage.host/i/EtJQyv)
+    [![Auth](screenshots/auth.jpeg)](screenshots/auth.jpeg)
     
 - For un-authenticated aws credentials
 
-    [![EtdRAx.md.png](https://iili.io/EtdRAx.md.png)](https://freeimage.host/i/EtdRAx)
+    [![UnAuth](screenshots/unauth.jpeg)](screenshots/unauth.jpeg)
     
 - Final Output 
     
-    [![Test](screenshots/output.jfif)](screenshots/output.jfif)
+    [![Final](screenshots/output.jfif)](screenshots/output.jfif)
     
     
 
