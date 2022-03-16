@@ -38,9 +38,7 @@ python3 unauth.py -p {identity-pool-id} -r {aws-region}
 
     [![UnAuth](screenshots/unauth.jpeg)](screenshots/unauth.jpeg)
     
-- Final Output 
-    
-    [![Final](screenshots/output.jfif)](screenshots/output.jfif)
+
     
     
 
