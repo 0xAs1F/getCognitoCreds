@@ -23,7 +23,7 @@ The only requirement needed here would be AWS python SDK boto3 and python3.
 ## Usage/Examples
 
 ```python
-python3 auth.py -t {id-token} -p {identity-pool-id} -a {user-pool-arn} -r {aws-region} 
+python3 auth.py -t {id-token} -i {identity-pool-id} -u {user-pool-arn} -r {aws-region} 
 python3 unauth.py -p {identity-pool-id} -r {aws-region}
 ```
 
