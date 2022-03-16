@@ -6,7 +6,7 @@ This is a simple python script to get aws credentials in exchange for parameters
 
 ## Requirements
 
-The only requirement needed here would be AWS python SDK boto3 and python.
+The only requirement needed here would be AWS python SDK boto3 and python3.
 
 ## Installation
 
