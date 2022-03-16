@@ -30,7 +30,13 @@ python3 unauth.py -p {identity-pool-id} -r {aws-region}
 
 ## Screenshots
 
-![For authenticated aws creds](https://ray.so/?title=&theme=falcon&spacing=16&background=true&darkMode=true&code=cHl0aG9uMyBhdXRoLnB5IC10IGV5SnJhV1FpT2kuLi4uIC1wIHVzLWVhc3QtMjo1ZDZhZGMtYmVmLTQ5My1hYTA5LTg2YzVlOTIzMWNjOCAtYSBjb2duaXRvLWlkcC51cy1lYXN0LTEuYW1hem9uYXdzLmNvbS91cy1lYXN0LTJfdFREZGZkZmRmaUhISSAtciB1cy1lYXN0LTE&language=julia)
-![For un-authenticated aws creds](https://ray.so/?title=unauth.py&theme=falcon&spacing=16&background=true&darkMode=true&code=IHB5dGhvbjMgdW5hdXRoLnB5IC1wIHVzLWVhc3QtMTo1ZDQ0NDQ2YWRjLWIxZWYtNDExMy1hYTA5LTg2Nzg4OWNiZ2dnYzggLXIgdXMtZWFzdC0x&language=julia)
+- For authenticated aws credentials
+
+    [![EtJQyv.md.png](https://iili.io/EtJQyv.md.png)](https://freeimage.host/i/EtJQyv)
+    
+- For un-authenticated aws credentials
+
+    [![EtdRAx.md.png](https://iili.io/EtdRAx.md.png)](https://freeimage.host/i/EtdRAx)
+    
 
 
