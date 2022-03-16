@@ -1,6 +1,6 @@
 import boto3,argparse
-parser = argparse.ArgumentParser()
 
+parser = argparse.ArgumentParser()
 parser.add_argument("-t", "--idtoken", dest = "token", help="Enter Identity Token")
 parser.add_argument("-p", "--identitypoolid", dest = "IdentityPoolId" , help="Enter Identity Pool ID")
 parser.add_argument("-a", "--userpoolid",dest ="user_pool_id", help="Enter the User Pool ID e.g us-east-1_testuserskldnl")
