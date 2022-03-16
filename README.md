@@ -6,7 +6,7 @@ This is a simple python script to get aws credentials in exchange for parameters
 
 ## Requirements
 
-The only requirement needed here would be AWS python SDK boto3 and python.
+The only requirement needed here would be AWS python SDK boto3 and python3.
 
 ## Installation
 
@@ -23,7 +23,7 @@ The only requirement needed here would be AWS python SDK boto3 and python.
 ## Usage/Examples
 
 ```python
-python3 auth.py -t {id-token} -a {user-pool-arn} -r {aws-region} 
+python3 auth.py -t {id-token} -i {identity-pool-id} -u {user-pool-id} -r {aws-region} 
 python3 unauth.py -p {identity-pool-id} -r {aws-region}
 ```
 
