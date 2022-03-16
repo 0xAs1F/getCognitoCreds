@@ -9,26 +9,26 @@ parser.add_argument("-a", "--userpoolid",dest ="user_pool_id", help="Enter the U
 parser.add_argument("-r", "--region",dest ="region", help="Enter the region")
 args = parser.parse_args()
 
-region = args.region
-client = boto3.client('cognito-identity' , region_name=region)
+#region =args.region 
+client = boto3.client('cognito-identity' , region_name=args.region)
 
-token=args.token
+#token=args.token
 user_pool_id = args.user_pool_id
 arn_user_pool = f'cognito-idp.{region}.amazonaws.com/{user_pool_id}'
-IdentityPoolId = args.IdentityPoolId
+#IdentityPoolId = args.IdentityPoolId
 
-response=client.get_id( IdentityPoolId= IdentityPoolId, Logins ={
-       arn_user_pool:token
+response=client.get_id( IdentityPoolId= args.IdentityPoolId, Logins ={
+       arn_user_pool:args.token
     })
 
 credentials = client.get_credentials_for_identity(IdentityId=response["IdentityId"], Logins ={
-       arn_user_pool:token
+       arn_user_pool:args.token
     })
 
-access_key = credentials['Credentials']['AccessKeyId']
-secret_key = credentials['Credentials']['SecretKey']
-session_token = credentials['Credentials']['SessionToken']
+#access_key = credentials['Credentials']['AccessKeyId']
+#secret_key = credentials['Credentials']['SecretKey']
+#session_token = credentials['Credentials']['SessionToken']
 
-print("Access Key: " + access_key)
-print("Secret Key: " + secret_key)
-print("Session Token: " + session_token)
+print("Access Key: " + credentials['Credentials']['AccessKeyId'])
+print("Secret Key: " + credentials['Credentials']['SecretKey'])
+print("Session Token: " + credentials['Credentials']['SessionToken'])
