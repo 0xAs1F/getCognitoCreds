@@ -38,5 +38,10 @@ python3 unauth.py -p {identity-pool-id} -r {aws-region}
 
     [![EtdRAx.md.png](https://iili.io/EtdRAx.md.png)](https://freeimage.host/i/EtdRAx)
     
+- Final Output 
+    
+    [![Test](Screenshots)](screenshots/output.jfif)
+    
+    
 
 
