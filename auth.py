@@ -14,7 +14,7 @@ client = boto3.client('cognito-identity' , region_name=args.region)
 
 #token=args.token
 user_pool_id = args.user_pool_id
-arn_user_pool = f'cognito-idp.{region}.amazonaws.com/{user_pool_id}'
+arn_user_pool = f'cognito-idp.{args.region}.amazonaws.com/{user_pool_id}'
 #IdentityPoolId = args.IdentityPoolId
 
 response=client.get_id( IdentityPoolId= args.IdentityPoolId, Logins ={
