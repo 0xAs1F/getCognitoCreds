@@ -1,6 +1,4 @@
-import boto3
-import argparse
-
+import boto3,argparse
 parser = argparse.ArgumentParser()
 
 parser.add_argument("-t", "--idtoken", dest = "token", help="Enter Identity Token")
