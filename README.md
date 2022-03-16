@@ -40,7 +40,7 @@ python3 unauth.py -p {identity-pool-id} -r {aws-region}
     
 - Final Output 
     
-    [![Test](Screenshots)](screenshots/output.jfif)
+    [![Test](screenshots/output.jfif)](screenshots/output.jfif)
     
     
 
