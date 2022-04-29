@@ -28,6 +28,7 @@ credentials = client.get_credentials_for_identity(IdentityId=response["IdentityI
        arn_user_pool:args.token
     })
 
-print("Access Key: " + "\033[1;32m"+credentials['Credentials']['AccessKeyId'] + "\033[0;0m")
-print("Secret Key: " +"\033[1;32m"+ credentials['Credentials']['SecretKey']+"\033[0;0m")
-print("Session Token: " +"\033[1;32m"+ credentials['Credentials']['SessionToken']+"\033[0;0m")
+print("aws_access_key_id = " + "\033[1;32m"+credentials['Credentials']['AccessKeyId'] + "\033[0;0m")
+print("aws_secret_access_key = " +"\033[1;32m"+ credentials['Credentials']['SecretKey']+"\033[0;0m")
+print("aws_session_token = " +"\033[1;32m"+ credentials['Credentials']['SessionToken']+"\033[0;0m")
+print("Just copy and paste the above three lines in your .aws/credentials file " "\033[1;32m" )
